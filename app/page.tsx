@@ -1,10 +1,11 @@
 import { BlogPosts } from 'app/components/posts'
+import TimeDisplay from './components/TimeDisplay'
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Hi, I'm Nana
+      <h1 className="text-7xl font-bold mb-16" style={{ fontFamily: 'Inter, sans-serif' }}>
+        Hi, Nana
       </h1>
       <p className="mb-4">
         Privacy Engineer & AI Ethics Advocate
@@ -21,6 +22,7 @@ export default function Page() {
       <div className="my-8">
         <BlogPosts />
       </div>
+      <TimeDisplay />
     </section>
   )
 }
