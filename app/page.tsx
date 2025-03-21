@@ -3,14 +3,6 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1
-        className="text-7xl mb-20 tracking-[-0.02em] text-neutral-900 dark:text-neutral-100"
-        style={{
-          fontWeight: '400',
-        }}
-      >
-        Hi, Nana
-      </h1>
       <p className="mb-4 text-neutral-800 dark:text-neutral-200">
         Privacy Engineer & AI Ethics Advocate
       </p>
