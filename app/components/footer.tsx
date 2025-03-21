@@ -1,4 +1,5 @@
 import { ArrowIcon } from './icons'
+import TimeDisplay from './TimeDisplay'
 
 export default function Footer() {
   return (
@@ -16,6 +17,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
+      <TimeDisplay />
     </footer>
   )
 }
