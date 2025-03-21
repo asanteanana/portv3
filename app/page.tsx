@@ -4,7 +4,13 @@ import TimeDisplay from './components/TimeDisplay'
 export default function Page() {
   return (
     <section>
-      <h1 className="text-7xl mb-16 tracking-tight" style={{ fontFamily: 'Inter, sans-serif' }}>
+      <h1
+        className="text-7xl mb-20 tracking-[-0.02em] text-neutral-900 dark:text-neutral-100 leading-none"
+        style={{
+          fontFamily: 'Inter, sans-serif',
+          fontWeight: '450',
+        }}
+      >
         Hi, Nana
       </h1>
       <p className="mb-4 text-neutral-800 dark:text-neutral-200">

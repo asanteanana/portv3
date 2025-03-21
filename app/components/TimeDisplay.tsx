@@ -24,9 +24,9 @@ export default function TimeDisplay() {
     }, []);
 
     return (
-        <div className="flex justify-between items-center text-neutral-600 dark:text-neutral-400 text-sm mt-8">
-            <div>© 2025 Nana Asante</div>
-            <div>{time}</div>
+        <div className="flex justify-between items-center text-neutral-500 dark:text-neutral-500 text-sm mt-12 font-light tracking-wide">
+            <div>© 2025 MIT Licensed</div>
+            <div className="tabular-nums">{time}</div>
         </div>
     );
 } 
