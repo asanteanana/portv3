@@ -6,7 +6,7 @@ export default function Page() {
       <h1 className="text-xl mb-1 text-neutral-900 dark:text-neutral-100 tracking-tight" style={{ fontWeight: '500' }}>
         Nana Asante
       </h1>
-      <p className="mb-8 text-neutral-800 dark:text-neutral-200">
+      <p className="mb-10 text-neutral-800 dark:text-neutral-200">
         Privacy Engineer & AI Ethics Advocate
       </p>
       <p className="mb-4 text-neutral-600 dark:text-neutral-400">
@@ -15,10 +15,10 @@ export default function Page() {
       <p className="mb-4 text-neutral-600 dark:text-neutral-400">
         I'm passionate about the intersection of AI and user experience, with a particular focus on Explainable and Responsible AI.
       </p>
-      <p className="mb-4 text-neutral-600 dark:text-neutral-400">
+      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
         My work aims to ensure that AI systems are not only powerful but also transparent, ethical, and user-centric.
       </p>
-      <div className="my-8">
+      <div className="my-10">
         <BlogPosts />
       </div>
     </section>
